@@ -5,3 +5,9 @@
     color: Black;
     font-family: "Times New Roman", serif;
 }
+
+div a:hover { 
+    font-size: 20px;
+    text-decoration: underline;
+
+}
