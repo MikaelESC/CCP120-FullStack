@@ -1,0 +1,42 @@
+p{
+    font-size: 26px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(189, 86, 86);
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paragrafo{
+    font-size: 26px;
+    color: black;
+    background-color: rgb(146, 0, 0);
+    margin-top: 20px;
+}
+
+.tamanho{
+    font-size: 26px;
+}
+
+.branco{
+    color: rgb(255, 255, 255);
+}
+
+div p{
+    margin: 40px;
+    padding:10px;
+}
+
+div p:hover{
+    background-color: rgb(255, 0, 0);
+}
