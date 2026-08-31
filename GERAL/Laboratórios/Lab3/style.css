@@ -1,0 +1,49 @@
+.sans{ 
+    font-family: sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: indigo;
+}
+
+body {background-color: lightgray;}
+
+
+#topo {background-color: bisque; text-align: center; border: 5px solid darkblue;}
+#rodape {background-color: bisque; text-align: center; }
+#subtopo {background-color: lightskyblue; text-align: center; color: darkred;}
+
+#c1 { 
+    left: 100px;
+    position: absolute;
+
+}
+
+#j1 { 
+    right: 100px;
+    position: Absolute;
+}
+
+
+#livros {
+    position: relative;
+    left: 680px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#ht {
+    position: absolute;
+    left: 35px;
+}
+
+#cs{
+    position: absolute;
+    right: 100px;
+}
+
+
+.sites {background-color: yellow; }
+.tabela {border: 5px dashed rgb(255, 0, 0); }
+.darkgreen {color:darkgreen}
