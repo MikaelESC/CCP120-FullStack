@@ -1,42 +1,33 @@
 p{
     font-size: 26px;
-    text-align: center;
-}
-
-body{
-    background-color: rgb(189, 86, 86);
-    font-family: "Times New Roman", serif;
-    margin: 0;
-    padding: 0;
 }
 
 #titulo{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 20px;
+    font-size: 36px;
+    color: red;
 }
 
 .paragrafo{
-    font-size: 26px;
-    color: black;
-    background-color: rgb(146, 0, 0);
-    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
 
-.tamanho{
-    font-size: 26px;
-}
+.azul       {color: blue;}
+.vermelho   {color: red;}
+.verde      {color: green;}   
 
-.branco{
-    color: rgb(255, 255, 255);
-}
+.tam26      {font-size: 26px;}
+.tam36      {font-size: 36px;}
+.tam46      {font-size: 46px;}
 
 div p{
-    margin: 40px;
-    padding:10px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
 }
 
 div p:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: yellow;
+    color: black;
 }
