@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Meu Portfólio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            border-bottom: 1px solid #334155;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #f8fafc;
+            text-decoration: none;
+            margin-left: 25px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 20px 45px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        header h1 span {
+            color: #38bdf8;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background: #1e293b;
+            padding: 28px;
+            border-radius: 14px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-7px);
+            border-color: #38bdf8;
+        }
+
+        .project-card .number {
+            color: #38bdf8;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .project-card h2 {
+            margin: 15px 0;
+            font-size: 23px;
+        }
+
+        .project-card p {
+            color: #94a3b8;
+            line-height: 1.6;
+            min-height: 50px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 11px 18px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            transition: 0.3s;
+        }
+
+        .project-card a:hover {
+            background: #0369a1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 45px 20px;
+            margin-top: 60px;
+            border-top: 1px solid #334155;
+            color: #64748b;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Meu Portfólio</h2>
+
+        <div>
+            <a href="/Home.html">Home</a>
+            <a href="/Project.html">Projects</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Meus <span>Projetos</span></h1>
+
+        <p>
+            Confira os laboratórios desenvolvidos durante
+            minha jornada FullStack.
+        </p>
+    </header>
+
+    <main class="container">
+
+        <section class="projects">
+
+            <div class="project-card">
+                <span class="number">LAB 01</span>
+                <h2>Laboratório 1</h2>
+                <p>Primeiro laboratório da disciplina FullStack.</p>
+                <a href="/Lab1/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 02</span>
+                <h2>Laboratório 2</h2>
+                <p>Segundo laboratório da disciplina FullStack.</p>
+                <a href="/Lab2/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 03</span>
+                <h2>Laboratório 3</h2>
+                <p>Terceiro laboratório da disciplina FullStack.</p>
+                <a href="/Lab3/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 04</span>
+                <h2>Laboratório 4</h2>
+                <p>Quarto laboratório da disciplina FullStack.</p>
+                <a href="/Lab4/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 05</span>
+                <h2>Laboratório 5</h2>
+                <p>Quinto laboratório da disciplina FullStack.</p>
+                <a href="/Lab5/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 06</span>
+                <h2>Laboratório 6</h2>
+                <p>Sexto laboratório da disciplina FullStack.</p>
+                <a href="/Lab6/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 07</span>
+                <h2>Laboratório 7</h2>
+                <p>Servidor estático utilizando Node.js e Express.</p>
+                <a href="/Lab7/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 08</span>
+                <h2>Laboratório 8</h2>
+                <p>Oitavo laboratório da disciplina FullStack.</p>
+                <a href="/Lab8/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 09</span>
+                <h2>Laboratório 9</h2>
+                <p>Nono laboratório da disciplina FullStack.</p>
+                <a href="/Lab9/">Acessar projeto →</a>
+            </div>
+
+            <div class="project-card">
+                <span class="number">LAB 10</span>
+                <h2>Laboratório 10</h2>
+                <p>Décimo laboratório da disciplina FullStack.</p>
+                <a href="/Lab10/">Acessar projeto →</a>
+            </div>
+
+          <div class="project-card">
+                <span class="number">PROJETO</span>
+                <h2>Projeto Final</h2>
+                <p>WebGame da disciplina FullStack.</p>
+                <a href="/meuprojeto/">Acessar projeto →</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Meu Portfólio | FullStack</p>
+    </footer>
+
+</body>
+</html>
