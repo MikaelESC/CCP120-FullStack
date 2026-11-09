@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fagnerpimentel/FullStack_2026.2_305.git"
+    "url": "git+https://github.com/MikaelESC/CCP120-FullStack"
   },
-  "author": "Fagner Pimentel",
+  "author": "Mikael Escobar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fagnerpimentel/FullStack_2026.2_305/issues"
+    "url": "https://github.com/MikaelESC/CCP120-FullStack/issues"
   },
-  "homepage": "https://github.com/fagnerpimentel/FullStack_2026.2_305#readme"
+  "homepage": "https://github.com/MikaelESC/CCP120-FullStack#readme"
 }
